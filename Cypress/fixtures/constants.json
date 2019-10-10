@@ -1,0 +1,51 @@
+
+
+{
+
+
+  "data": "hello world",
+
+  "Left":{
+      "search_box":"[id='kw']",
+      "search_submit":"[type='submit']"
+  },
+
+  "find":{
+    "broadcast":"broadSample"
+    
+},
+
+
+
+  "BaseUrl":{
+    "invite":"https://cchat-test.clarksons.com/api/invite?emailAddress="
+    
+},
+
+
+"users":{
+    "cchat1":"Seachat_user1@clarksons-test-user.com",
+    "cchat2":"Seachat_user2@clarksons-test-user.com",
+    "cchat3":"Seachat_user3@clarksons-test-user.com",
+    "cchatmain":"cchat_user2@clarksons-test-user.com",
+    "cchatJames":"James.Heal@sea.live",
+    "cchatAndy":"Andy.Mondal@sea.live"
+    
+
+
+    
+},
+ 
+
+  "variable":{
+      "search_value":"cypress test"
+  },
+
+
+  "token":{
+     "auth_token":"clarksons-cloud-token BIJTeZzclC/fy/0SOVwy3ZYnMibijU7iL7eSUPtYVS739r7yHFkoUr8b/Tt5/LS22FO+mvBqbfbfHqrwR3tzVNorxolyWY91YWKFxlC5dFZrxYjWy16TxXg4tYIyRoFbcnweztYXKcHhcIZdYYLonQ==",
+     "bot_token":"hrP+tv+IdniNUaRnHbMPZMAVf5eqnIM/clCox4zZLEYUytlxySHF1L3dVMvrQvl7C1jWH7NQFVFsEEWLezWhxY5Y8bhCFg1yF60QKqZQE+hMrlahSMB2/ePyZtefNx/r+U5qeXrkSNcg0MnRJNiepQ==",
+     "bot_baseURL": "https://cchat-test.clarksons.com/api/test/servicebus/thirdpartymessages",
+     "senderUserToken" : "BIJTeZzclC/fy/0SOVwy3ZYnMibijU7iL7eSUPtYVS739r7yHFkoUr8b/Tt5/LS22FO+mvBqbfbfHqrwR3tzVNorxolyWY91YWKFxlC5dFZrxYjWy16TxXg4tYIyRoFbcnweztYXKcHhcIZdYYLonQ=="
+}
+}

@@ -14,7 +14,14 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands'
+import "./commands";
+const customCommands = require('./commands.js')
 
-// Alternatively you can use CommonJS syntax:
-// require('./commands')
+
+module.exports = {
+  commands: customCommands
+}
+require('cypress-plugin-retries')
+require('cypress-dark')
+
+

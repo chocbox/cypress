@@ -1,1 +1,43 @@
-{}
+{
+	"chromeWebSecurity": false,
+	"baseUrl": "https://cchat-test.clarksons.com",
+	"video": true,
+	"pluginsFile": false,
+	"ignoreTestFiles": [
+		"_example_*"
+	],
+	"env": {
+		
+		"AdminUser": "cchat_user2@clarksons-test-user.com",
+		"AdminPassword": "User2CChat",
+		  
+	    "AdminUser01": "Seachat_user1@clarksons-test-user.com",
+		"AdminPassword01": "Clarksons2019",
+		
+		"AdminUser02": "Seachat_user2@clarksons-test-user.com",
+		"AdminPassword02": "Clarksons2019",
+		
+		"AdminUser03": "Seachat_user3@clarksons-test-user.com",
+		"AdminPassword03": "Clarksons2019",
+
+
+
+
+
+		"CloudBaseUrl": "https://cloud.test.clarksons.com",
+		"CChatBaseUrl": "http://cchat.local.clarksons.com:7000/src/desktop"
+		
+	},
+
+
+	"viewportHeight": 1000,
+	"viewportWidth": 1400,
+
+
+    "requestTimeout": 100000,
+    "defaultCommandTimeout": 100000,
+	"pageLoadTimeout": 100000,
+	"responseTimeout": 60000,
+    "waitForAnimations": true,
+	"projectId": "db2dyc"
+}
