@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cy:run": "cypress run --spec cypress/integration/examples/one.js"
+    "testone": "cypress run --spec cypress/integration/iceberg/bulkUpload.js",
+
+
+    "cy:verify": "cypress verify"
   },
   "author": "",
   "license": "ISC",
