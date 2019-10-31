@@ -4,14 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "testone": "cypress run --spec cypress/integration/iceberg/bulkUpload.js",
-
-
+    "testone": "cypress run",
     "cy:verify": "cypress verify"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@wdio/appium-service": "^5.13.2",
     "cy-view": "^1.0.7",
     "cypress": "^3.4.1",
     "cypress-dark": "^1.7.14",
@@ -20,6 +19,7 @@
     "start-server-and-test": "^1.10.0"
   },
   "dependencies": {
-    "random-email": "^1.0.3"
+    "random-email": "^1.0.3",
+    "webdriverio": "^5.15.2"
   }
 }

@@ -4,7 +4,11 @@
 	"video": true,
 	"pluginsFile": false,
 	"ignoreTestFiles": [
-		"_example_*"
+		"_example_*",
+		"before.js",
+		"botApi.js"
+		
+
 	],
 	"env": {
 		
